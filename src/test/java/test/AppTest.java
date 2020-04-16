@@ -25,34 +25,34 @@ public class AppTest {
 
     public WebDriver driver;
     public String URL = "https://ehryoutst.dev.gomel.ximxim.com/app/login";
-    public String URL1 = "https://ehrsynergy.com/app/login";
+    private String URL1 = "https://ehrsynergy.com/app/login";
     private LogPage log;
-    private PatientPage patient;
-    private CreatePatientPage createPatient;
-    private StartNewNotePage startNewNote;
-    private EncounterNotesPage encounterNotes;
-    private ChartPage chart;
-    private DiagnosisListPage diagnosisList;
-    private MedicationListPage medicationList;
-    private AllergyListPage allergyList;
+//    private PatientPage patient;
+//    private CreatePatientPage createPatient;
+//    private StartNewNotePage startNewNote;
+//    private EncounterNotesPage encounterNotes;
+//    private ChartPage chart;
+//    private DiagnosisListPage diagnosisList;
+//    private MedicationListPage medicationList;
+//    private AllergyListPage allergyList;
 
 
     @Before
-    public void setUp() throws InterruptedException {
+    public void setUp()  {
         System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(URL1);
         log = new LogPage(driver);
-        patient = new PatientPage(driver);
-        createPatient = new CreatePatientPage(driver);
-        startNewNote = new StartNewNotePage(driver);
-        encounterNotes = new EncounterNotesPage(driver);
-        chart = new ChartPage(driver);
-        diagnosisList = new DiagnosisListPage(driver);
-        medicationList = new MedicationListPage(driver);
-        allergyList = new AllergyListPage(driver);
+//        patient = new PatientPage(driver);
+//        createPatient = new CreatePatientPage(driver);
+//        startNewNote = new StartNewNotePage(driver);
+//        encounterNotes = new EncounterNotesPage(driver);
+//        chart = new ChartPage(driver);
+//        diagnosisList = new DiagnosisListPage(driver);
+//        medicationList = new MedicationListPage(driver);
+//        allergyList = new AllergyListPage(driver);
     }
 
 
