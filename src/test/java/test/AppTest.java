@@ -15,13 +15,13 @@ import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
 
-@RunWith(Parameterized.class)
+//@RunWith(Parameterized.class)
 public class AppTest {
     String em;
 
-    public AppTest(String em) {
-        this.em = em;
-    }
+//    public AppTest(String em) {
+//        this.em = em;
+//    }
 
     public WebDriver driver;
     public String URL = "https://ehryoutst.dev.gomel.ximxim.com/app/login";
@@ -65,12 +65,12 @@ public class AppTest {
 //        );
 //    }
 
-    @Parameterized.Parameters
-    public static Iterable<? extends Object> data() {
-        String[] myArray;
-        myArray = new String[1];
-        return Arrays.asList(myArray);
-    }
+//    @Parameterized.Parameters
+//    public static Iterable<? extends Object> data() {
+//        String[] myArray;
+//        myArray = new String[1];
+//        return Arrays.asList(myArray);
+//    }
 
 //
 //    @Test

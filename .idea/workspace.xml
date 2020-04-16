@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="302cf81c-7552-40dc-93c0-e4aa6ac38ea2" name="Default Changelist" comment="" />
+    <list default="true" id="302cf81c-7552-40dc-93c0-e4aa6ac38ea2" name="Default Changelist" comment="- runWith">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test.AppTest.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587057839449</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change dependency">
+      <created>1587058167171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587058167171</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +268,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 1" />
     <MESSAGE value="change dependen" />
-    <option name="LAST_COMMIT_MESSAGE" value="change dependen" />
+    <MESSAGE value="change dependency" />
+    <MESSAGE value="- runWith" />
+    <option name="LAST_COMMIT_MESSAGE" value="- runWith" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="0" width="822" height="680" key="#Project_Structure" timestamp="1576866196194">
