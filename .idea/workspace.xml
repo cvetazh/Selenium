@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="302cf81c-7552-40dc-93c0-e4aa6ac38ea2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EHselenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EHselenium.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/1e62fd77-0bab-4ee2-8ddf-20c8edb058ce-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/350959db-c32c-4078-81b9-f181c3f04dbc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/63d86ca4-77fb-4797-8f5e-981656dece5f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/8e507337-82a5-4803-9e10-14aa5229b11d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/9cb4590a-b4e9-44e3-9951-759eec31f043-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/cb31d52b-43ee-4b11-8c33-eb2c0e1db065-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/allure-results/ea3a1510-d9f8-482f-a6f0-0a757b266608-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-test.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/test.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/AllergyListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/AllergyListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/ChartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/ChartPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/CreateNotePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/CreateNotePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/CreatePatientPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/CreatePatientPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/DiagnosisListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/DiagnosisListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/EncounterNotesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/EncounterNotesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/GeneralList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/GeneralList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/LogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/LogPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/MedicationListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/MedicationListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/PatientPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/PatientPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/StartNewNotePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/StartNewNotePage.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -327,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587129373074</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="-pom demo">
+      <created>1587133065896</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587133065896</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +337,8 @@
     <MESSAGE value="- закомментировано" />
     <MESSAGE value="-com2" />
     <MESSAGE value="-com3" />
-    <option name="LAST_COMMIT_MESSAGE" value="-com3" />
+    <MESSAGE value="-pom demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="-pom demo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="0" width="822" height="680" key="#Project_Structure" timestamp="1576866196194">

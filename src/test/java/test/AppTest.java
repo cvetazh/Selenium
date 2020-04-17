@@ -27,28 +27,33 @@ public class AppTest {
     public String URL = "https://ehryoutst.dev.gomel.ximxim.com/app/login";
     private String URL1 = "https://ehrsynergy.com/app/login";
     private LogPage log;
-//    private PatientPage patient;
-//    private CreatePatientPage createPatient;
-//    private StartNewNotePage startNewNote;
-//    private EncounterNotesPage encounterNotes;
-//    private ChartPage chart;
-//    private DiagnosisListPage diagnosisList;
-//    private MedicationListPage medicationList;
-//    private AllergyListPage allergyList;
+    private PatientPage patient;
+    private CreatePatientPage createPatient;
+    private StartNewNotePage startNewNote;
+    private EncounterNotesPage encounterNotes;
+    private ChartPage chart;
+    private DiagnosisListPage diagnosisList;
+    private MedicationListPage medicationList;
+    private AllergyListPage allergyList;
 
 
-//    @Before
-//    public void setUp()  {
-
-//        patient = new PatientPage(driver);
-//        createPatient = new CreatePatientPage(driver);
-//        startNewNote = new StartNewNotePage(driver);
-//        encounterNotes = new EncounterNotesPage(driver);
-//        chart = new ChartPage(driver);
-//        diagnosisList = new DiagnosisListPage(driver);
-//        medicationList = new MedicationListPage(driver);
-//        allergyList = new AllergyListPage(driver);
-    //   }
+    @Before
+    public void setUp()  {
+        System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+        driver.get(URL1);
+        log = new LogPage(driver);
+        patient = new PatientPage(driver);
+        createPatient = new CreatePatientPage(driver);
+        startNewNote = new StartNewNotePage(driver);
+        encounterNotes = new EncounterNotesPage(driver);
+        chart = new ChartPage(driver);
+        diagnosisList = new DiagnosisListPage(driver);
+        medicationList = new MedicationListPage(driver);
+        allergyList = new AllergyListPage(driver);
+       }
 
 
 //    @Parameterized.Parameters
@@ -110,12 +115,6 @@ public class AppTest {
 
     @Test
     public void method_4() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-        driver.get(URL1);
-        log = new LogPage(driver);
         log.signin("a1019mailcom@gmail.com", "a1019mailcom@gmail.com");
 //        patient.patient();
 //       Thread.sleep(10000);
@@ -125,14 +124,13 @@ public class AppTest {
 //        medicationList.medicationList();
 //        Thread.sleep(2000);
 //        allergyList.allergyList();
+
+    }
+
+    @After
+    public void tearDown() {
         driver.quit();
     }
 }
-
-//    @After
-//    public void tearDown() {
-//        driver.quit();
-//    }
-//}
 // mvn clean test -Dtest=AppTest
 // a1019mailcom@gmail.com
