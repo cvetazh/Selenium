@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="302cf81c-7552-40dc-93c0-e4aa6ac38ea2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="302cf81c-7552-40dc-93c0-e4aa6ac38ea2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587060104088</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="- закомментировано">
+      <created>1587101350034</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587101350034</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +285,8 @@
     <MESSAGE value="change dependency" />
     <MESSAGE value="- runWith" />
     <MESSAGE value="- hz" />
-    <option name="LAST_COMMIT_MESSAGE" value="- hz" />
+    <MESSAGE value="- закомментировано" />
+    <option name="LAST_COMMIT_MESSAGE" value="- закомментировано" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="0" width="822" height="680" key="#Project_Structure" timestamp="1576866196194">
