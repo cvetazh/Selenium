@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="302cf81c-7552-40dc-93c0-e4aa6ac38ea2" name="Default Changelist" comment="" />
+    <list default="true" id="302cf81c-7552-40dc-93c0-e4aa6ac38ea2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EHselenium.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EHselenium.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-test.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/test.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/AllergyListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/AllergyListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/ChartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/ChartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/CreateNotePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/CreateNotePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/CreatePatientPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/CreatePatientPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/DiagnosisListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/DiagnosisListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/EncounterNotesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/EncounterNotesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/GeneralList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/GeneralList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/LogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/LogPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/MedicationListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/MedicationListPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/PatientPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/PatientPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/webpages/StartNewNotePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/webpages/StartNewNotePage.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +72,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../slava" />
+    <property name="last_opened_file_path" value="D:/demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -260,7 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587101350034</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="- закомментировано">
+      <created>1587101421200</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587101421200</updated>
+    </task>
+    <task id="LOCAL-00008" summary="-com2">
+      <created>1587101564395</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587101564395</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +320,8 @@
     <MESSAGE value="- runWith" />
     <MESSAGE value="- hz" />
     <MESSAGE value="- закомментировано" />
-    <option name="LAST_COMMIT_MESSAGE" value="- закомментировано" />
+    <MESSAGE value="-com2" />
+    <option name="LAST_COMMIT_MESSAGE" value="-com2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="0" width="822" height="680" key="#Project_Structure" timestamp="1576866196194">

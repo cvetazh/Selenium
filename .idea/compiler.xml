@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="EHselenium" target="10" />
+      <module name="EHselenium" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

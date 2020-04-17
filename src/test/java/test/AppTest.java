@@ -15,13 +15,13 @@ import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
 
-//@RunWith(Parameterized.class)
+@RunWith(Parameterized.class)
 public class AppTest {
-//    String em;
+    String em;
 
-//    public AppTest(String em) {
-//        this.em = em;
-//    }
+    public AppTest(String em) {
+        this.em = em;
+    }
 
     public WebDriver driver;
     public String URL = "https://ehryoutst.dev.gomel.ximxim.com/app/login";
@@ -37,9 +37,15 @@ public class AppTest {
 //    private AllergyListPage allergyList;
 
 
-//    @Before
-//    public void setUp()  {
-
+    @Before
+    public void setUp()  {
+        System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+        driver.get(URL1);
+       log = new LogPage(driver);
+//
 //        patient = new PatientPage(driver);
 //        createPatient = new CreatePatientPage(driver);
 //        startNewNote = new StartNewNotePage(driver);
@@ -48,7 +54,7 @@ public class AppTest {
 //        diagnosisList = new DiagnosisListPage(driver);
 //        medicationList = new MedicationListPage(driver);
 //        allergyList = new AllergyListPage(driver);
- //   }
+    }
 
 
 //    @Parameterized.Parameters
@@ -60,17 +66,17 @@ public class AppTest {
 //        );
 //    }
 
-//    @Parameterized.Parameters
-//    public static Iterable<? extends Object> data() {
-//        String[] myArray;
-//        myArray = new String[1];
-//        return Arrays.asList(myArray);
-//    }
+    @Parameterized.Parameters
+    public static Iterable<? extends Object> data() {
+        String[] myArray;
+        myArray = new String[2];
+        return Arrays.asList(myArray);
+    }
 
 //
-//    @Test
-//    public void method_1() throws InterruptedException {
-//        log.signin("a1019mailcom@gmail.com", "a1019mailcom@gmail.com");
+    @Test
+    public void method_1() throws InterruptedException {
+        log.signin("a1019mailcom@gmail.com", "a1019mailcom@gmail.com");
 //        //login.chooseClinic("SV");
 //        patient.addPatient();
 //        createPatient.createPatient();
@@ -79,7 +85,7 @@ public class AppTest {
 //        encounterNotes.toggle();
 //        chart.signChart();
 //        log.logout();
-//    }
+    }
 
 //    @Test
 //    public void method_2() throws InterruptedException {
@@ -108,15 +114,10 @@ public class AppTest {
 //    }
 
 
-    @Test
-    public void method_4() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-        driver.get(URL1);
-        log = new LogPage(driver);
-        log.signin("a1019mailcom@gmail.com", "a1019mailcom@gmail.com");
+//    @Test
+//    public void method_4() throws InterruptedException {
+//
+//        log.signin("a1019mailcom@gmail.com", "a1019mailcom@gmail.com");
 //        patient.patient();
 //       Thread.sleep(10000);
 //        patient.choosePatient();
@@ -125,15 +126,15 @@ public class AppTest {
 //        medicationList.medicationList();
 //        Thread.sleep(2000);
 //        allergyList.allergyList();
-        driver.quit();
-    }
-}
-
-//    @After
-//    public void tearDown() {
 //        driver.quit();
 //    }
 //}
+
+    @After
+    public void tearDown() {
+        driver.quit();
+    }
+}
 // mvn clean test -Dtest=AppTest
 // a1019mailcom@gmail.com
 
