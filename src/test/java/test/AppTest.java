@@ -37,14 +37,9 @@ public class AppTest {
 //    private AllergyListPage allergyList;
 
 
-    @Before
-    public void setUp()  {
-        System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-        driver.get(URL1);
-        log = new LogPage(driver);
+//    @Before
+//    public void setUp()  {
+
 //        patient = new PatientPage(driver);
 //        createPatient = new CreatePatientPage(driver);
 //        startNewNote = new StartNewNotePage(driver);
@@ -53,7 +48,7 @@ public class AppTest {
 //        diagnosisList = new DiagnosisListPage(driver);
 //        medicationList = new MedicationListPage(driver);
 //        allergyList = new AllergyListPage(driver);
-    }
+ //   }
 
 
 //    @Parameterized.Parameters
@@ -115,22 +110,30 @@ public class AppTest {
 
     @Test
     public void method_4() throws InterruptedException {
+        System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+        driver.get(URL1);
+        log = new LogPage(driver);
         log.signin("a1019mailcom@gmail.com", "a1019mailcom@gmail.com");
 //        patient.patient();
-       Thread.sleep(10000);
+//       Thread.sleep(10000);
 //        patient.choosePatient();
 //        diagnosisList.diagnosisList();
 //        Thread.sleep(2000);
 //        medicationList.medicationList();
 //        Thread.sleep(2000);
 //        allergyList.allergyList();
-    }
-
-    @After
-    public void tearDown() {
         driver.quit();
     }
 }
+
+//    @After
+//    public void tearDown() {
+//        driver.quit();
+//    }
+//}
 // mvn clean test -Dtest=AppTest
 // a1019mailcom@gmail.com
 
