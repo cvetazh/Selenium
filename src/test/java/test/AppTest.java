@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 //@RunWith(Parameterized.class)
 public class AppTest {
-    String em;
+//    String em;
 
 //    public AppTest(String em) {
 //        this.em = em;
